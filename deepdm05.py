@@ -28,7 +28,6 @@ from data_keras import label_acc_score,keras_data
 import glob
 import math
 import  matplotlib.pyplot as plt
-weight=np.load('tf_weights.npy').item()
 def _make_divisible(v, divisor, min_value=None):
     if min_value is None:
         min_value = divisor
